@@ -1,0 +1,48 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+
+ */
+
+
+@import url(http://fonts.googleapis.com/css?family=Lato);
+/* line 19, /Users/crisvalderrama/Desktop/WDI lec and proj/05-week/sassy-art-2/app/assets/stylesheets/paintings.css.scss */
+body {
+  background-image: url(starrynight.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
+/* line 26, /Users/crisvalderrama/Desktop/WDI lec and proj/05-week/sassy-art-2/app/assets/stylesheets/paintings.css.scss */
+body .main {
+  background-color: white;
+  width: 62.5%;
+  margin: 0 auto;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  -ms-border-radius: 18px;
+  border-radius: 18px;
+}
+/* line 32, /Users/crisvalderrama/Desktop/WDI lec and proj/05-week/sassy-art-2/app/assets/stylesheets/paintings.css.scss */
+body .main .painting {
+  background-color: #666600;
+  color: #ffff4d;
+}
+/* line 37, /Users/crisvalderrama/Desktop/WDI lec and proj/05-week/sassy-art-2/app/assets/stylesheets/paintings.css.scss */
+body .main .details {
+  background-color: yellow;
+}
+/* line 39, /Users/crisvalderrama/Desktop/WDI lec and proj/05-week/sassy-art-2/app/assets/stylesheets/paintings.css.scss */
+body .main .details:last-child {
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
